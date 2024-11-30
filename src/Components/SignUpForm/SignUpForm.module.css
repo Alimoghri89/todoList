@@ -1,0 +1,30 @@
+.container {
+display: flex;
+width: 40%;
+justify-content: center;
+background-color: #2064f6;
+padding: 20px 30px;
+border-radius: 10px;
+}
+.form {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+}
+.input {
+    height: 5vh;
+    width: 100%;
+    &::placeholder{
+        padding: 0 10px;
+    }
+}
+.lable {
+    color: #fff;
+}
+.button {
+    width: fit-content;
+    padding: 10px 30px;
+    align-self: center;
+    margin-top: 10px;
+}
